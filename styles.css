@@ -1,4 +1,6 @@
 
+/* Global customizations. Please note that there are bootstrap stylesheet also active.*/
+
 h1 {
     font-family: 'Marck Script', cursive;
     font-size: 2.75rem;
@@ -29,7 +31,7 @@ a {
     text-decoration: none;
 }
 
-
+/* Navigation customoziation */
 .navOsio {
     background-color: #EBE8E0;
     padding-top: 20px;
@@ -64,15 +66,13 @@ nav a {
     list-style-type:none;
 }
 
+/* Hero column below navigation */
 .hero {
     background-color:#EBE8E0;
     text-align: center;
 }
 
-/* .heroColLeft {
-   
-} */
-
+/* Opening hours table */
 .table {
    
     margin-left: auto;
@@ -96,25 +96,23 @@ header img {
     display: block;
 }
 
-/* .heroColRight {
-   
-
-} */
+/* Hero image */
 .heroimg {
 margin-left: auto;
 margin-right: auto;
 display: block;
 }
 
-.carousel {
+/* Optional carousel, currently not visible */
+/* .carousel {
     max-width: 50%;
     max-height: 100%;
     background-color: fuchsia;
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
-
+/* Main content */
 .info {
     text-align: center;
     margin: auto;
@@ -144,7 +142,7 @@ display: block;
     border-color: black;
 }
 
-/* Upotusten muotoilu */
+/* Embbed customizations */
 .embbed {
     border-style: solid;
     border-width: 5px;
@@ -163,6 +161,7 @@ display: block;
     padding-bottom: 30px;
 }
 
+/* Footer */
 footer {
     background-color: #EBE8E0;
 }
